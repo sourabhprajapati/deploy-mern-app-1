@@ -22,7 +22,7 @@ const Home = () => {
   }
   const  fetchProducts=async()=>{
     try {
-      const url="http://localhost:8080/product";
+      const url="https://deploy-mern-app-1-api-delta.vercel.app/product";
       const headers={
           headers:{
               'Authorization':localStorage.getItem('token')
