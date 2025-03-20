@@ -69,7 +69,9 @@ const Login = () => {
                     <input onChange={handleChange} type="password"  value={loginInfo.password} name='password' placeholder='Enter your password' />
                 </div>
                 <button type='submit'>Login</button>
-                <span>Already had a account ? <Link to="/login">Login</Link></span>
+               <span>Does't have an account ?
+                    <Link to="/signup">Signup</Link>
+                </span>
             </form>
             <ToastContainer/>
         </div>
